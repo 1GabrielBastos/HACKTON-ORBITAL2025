@@ -39,7 +39,7 @@ A aplicação estará rodando em `http://localhost:8080`.
 
 Com a aplicação em execução, é possível acessar o console do banco de dados em memória H2 para visualizar as tabelas (`CUSTOMERS`, `TRANSACTIONS`) e executar queries SQL.
 
-1.  Acesse a URL: [**http://localhost:8080/h2-console**](http://localhost:8080/h2-console)
+1.  Acesse a URL: [**http://localhost:8080/h2-console**](http://localhost:8081/h2-console)
 
 2.  Utilize as seguintes credenciais na tela de login:
     * **Driver Class:** `org.h2.Driver`
