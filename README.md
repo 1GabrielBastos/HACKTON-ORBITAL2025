@@ -35,7 +35,21 @@ API REST desenvolvida como solução para o desafio final do Hackaton Orbitall 2
    ```
 A aplicação estará rodando em `http://localhost:8080`.
 
-## Endpoints e Exemplos de Uso
+## 🗄️ Acessando o Banco de Dados (H2 Console)
+
+Com a aplicação em execução, é possível acessar o console do banco de dados em memória H2 para visualizar as tabelas (`CUSTOMERS`, `TRANSACTIONS`) e executar queries SQL.
+
+1.  Acesse a URL: [**http://localhost:8080/h2-console**](http://localhost:8080/h2-console)
+
+2.  Utilize as seguintes credenciais na tela de login:
+    * **Driver Class:** `org.h2.Driver`
+    * **JDBC URL:** `jdbc:h2:mem:hackatondb`
+    * **User Name:** `sa`
+    * **Password:** (deixe em branco)
+
+**Atenção:** É fundamental que o campo `JDBC URL` seja preenchido exatamente como acima para conectar-se à mesma instância de banco de dados que a aplicação está utilizando.
+
+## 📡 Endpoints e Exemplos de Uso
 
 A seguir estão exemplos de requisições que podem ser feitas com `curl` ou no Postman.
 
